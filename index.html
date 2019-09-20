@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mad Mad Mad Libs</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <label>Noun: </label><input id="noun"></input>
+    <p id= 'story' class='bisque'>
+        Once upon a time there was a 
+                <span id= 'noun-space'>
+                </span>
+    <label>Adjitive: </label>
+        <input id="adjitive"></input>
+        sitting alone in a
+                <span id= adjitive-space>
+                </span>
+        forest.
+    <label>Verb: </label>
+        <input id="verb"></input>
+        Where a dark cloud
+        <span id= verb-space>
+            ominously.
+        </span>
+    </p>
+    <button onclick= "uponButtonClick()">Ah!</button>
+</body>
+</html>

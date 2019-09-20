@@ -1,0 +1,16 @@
+body{
+    background-color: bisque;
+}
+label  {
+    color: red;
+}
+.bisque {
+    color: bisque;
+}
+.black{
+    color:black;
+}
+
+.hidden{
+    display: none;
+}
